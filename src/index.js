@@ -1,18 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ShowJoke from './ShowJoke';
-import ShowJokeList from './ShowJokeList';
+import JokeRef from './JokeRef';
+
 
 
 
 ReactDOM.render(
   <React.StrictMode>
    <> 
-      <ShowJoke />
-  </>  
-
-  <> 
-      <ShowJokeList />
+      <JokeRef />
   </>  
 
   </React.StrictMode>,
